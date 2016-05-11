@@ -23,6 +23,7 @@ h1, p {
 	text-align: center;
 	color: #5D006A
 	word-spacing: 20px;
+	overflow: auto;
 
 }
 
@@ -64,4 +65,16 @@ h2,h3,h4 {
 #SM, #us{
 	font-size: 13px;
 	text-align: center;
+}
+
+.navleft{
+float: left;
+}
+
+.navright{
+float: right;
+}
+
+.navright a{
+padding: 0em 1em;
 }
