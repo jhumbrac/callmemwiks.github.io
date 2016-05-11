@@ -73,6 +73,7 @@ float: left;
 
 .navright{
 float: right;
+padding-top: 8em;
 }
 
 .navright a{
