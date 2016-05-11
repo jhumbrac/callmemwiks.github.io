@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	background: url(images/huaywasilogo.png);
+	background: url(images/clutch-from-daria.jpg);
+	background-color: #ffffff;
+	background-size: cover;
+	color: #5D006A;
+	font-family: Tahoma, Sans-Serif;
+
+}
+
+h1, p {
+	font-size: 15px;
+	color: #5D006A; 
+}
+
+#button{
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 30px;
+	font-size: 20px;
+	text-align: center;
+	color: #5D006A
+	word-spacing: 20px;
+
+}
+
+.logo {
+	float: left, top;
+	width: 140px;
+	height: 180px;
+	padding: 10px;
+}
+
+.main {
+	float: center;
+	width: 900px
+	height:400px;
+}
+
+#header {
+	background: #000000;
+}
+
+#top {
+	color: #5D006A;
+	color: inherit;
+	text-decoration: none;
+	font-weight: none;
+	text-align: right;
+}
+
+#line {
+	width: 1000px;
+	color: #ffffff;
+}
+
+h2,h3,h4 {
+	font-size: 16px;
+	text-align: center;
+}
+
+#SM, #us{
+	font-size: 13px;
+	text-align: center;
+}
