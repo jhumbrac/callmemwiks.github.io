@@ -20,16 +20,12 @@ h1, p {
 	padding: 20px;
 	font-size: 20px;
 	text-align: center;
-<<<<<<< HEAD
 	color: #5D006A;
 	overflow: auto;
 	width: 1200px;
-=======
 	color: #5D006A
 	word-spacing: 20px;
 	overflow: auto;
-
->>>>>>> origin/master
 }
 
 .logo {
@@ -75,10 +71,7 @@ h2,h3,h4 {
 
 .navleft{
 float: left;
-<<<<<<< HEAD
 padding-left: 8em;
-=======
->>>>>>> origin/master
 }
 
 .navright{
@@ -89,7 +82,6 @@ padding-top: 8em;
 .navright a{
 padding: 0em 1em;
 }
-<<<<<<< HEAD
 
 .slogan{
 	padding: none;
@@ -102,7 +94,3 @@ padding: 0em 1em;
 	margin-right: auto;
 }
 
-
-
-=======
->>>>>>> origin/master
