@@ -1,11 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
 body {
 	text-align: center;
 	background: url(images/huaywasilogo.png);
 	background: url(images/clutch-from-daria.jpg);
 	background-color: #ffffff;
 	background-size: cover;
-	color: #5D006A;
-	font-family: Tahoma, Sans-Serif;
+	color: #5D006A; 
 }
 
 h1, p {
@@ -16,28 +18,28 @@ h1, p {
 #button{
 	color: inherit;
 	text-decoration: none;
-	font-weight: none;
+	font-weight: bold;
 	padding: 20px;
 	font-size: 20px;
 	text-align: center;
 	color: #5D006A;
 	overflow: auto;
 	width: 1200px;
-	color: #5D006A
-	word-spacing: 20px;
+	word-spacing: 4px;
 	overflow: auto;
+	font-family: 'Montserrat', sans-serif; 
 }
 
 .logo {
 	float: left, top;
 	width: 140px;
 	height: 180px;
-	padding: 5px;
+	padding: 0.5em;
 }
 
 .main {
 	float: center;
-	width: 900px
+	width: 900px;
 	height:400px;
 }
 
@@ -52,16 +54,15 @@ h1, p {
 	font-weight: none;
 	text-align: right;
 	padding: 0em 1em;
-}
+	word-spacing: 1em; 
+	font-family: 'Montserrat', sans-serif; 
 
-#line {
-	width: 1000px;
-	color: #ffffff;
 }
 
 h2,h3,h4 {
 	font-size: 16px;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
 }
 
 #SM, #us{
@@ -85,12 +86,18 @@ padding: 0em 1em;
 
 .slogan{
 	padding: none;
-	background: #FF6E20;
+	background: #5CB600;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 .content{
 	width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'Montserrat', sans-serif;
 }
 
+a:hover{ 
+	color: #FCD201;
+}

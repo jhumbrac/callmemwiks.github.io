@@ -1,0 +1,5 @@
+Fonts
+
+Montserrat (Top half of the site)
+import: @import url(https://fonts.googleapis.com/css?family=Montserrat);
+CSS: font-family: 'Montserrat', sans-serif;
