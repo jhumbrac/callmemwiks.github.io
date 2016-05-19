@@ -1,7 +1,10 @@
 body {
+  /*just a note for colors, it's better practice to use hexcodes
+  so for darkmagenta it would be #8b008b
+  */
 	background-color: darkmagenta;
 }
 
 h1, p {
-	color: white; 
+	color: white;
 }

@@ -1,35 +1,39 @@
 body {
+	/*anything specified for the <body> element will be applied to all the children elements */
 	text-align: center;
-	background: url(images/huaywasilogo.png);
-	background: url(images/clutch-from-daria.jpg);
 	background-color: #ffffff;
-	background-size: cover;
-	color: #5D006A;
+	/* so with the background property, you were specifying two images. Because styles are read top to bottom (cascading),
+	only the last image will be used.
+	You were probably not seeing images bc the path you're indicating can only work from the index.html file,
+	but since it would call the file from the style.css file, the path would be:
+	../images/huaywasilogo.png
+	so background: url(../images/huaywasilogo.png);
+	More on backgrounds https://developer.mozilla.org/en-US/docs/Web/CSS/background */
+
+	color: #5D006A; /* this color has been set for the whole document, so no need to specify it anymore below,
+	unless you want a different text color for an element*/
 	font-family: Tahoma, Sans-Serif;
 }
 
 h1, p {
 	font-size: 15px;
-	color: #5D006A; 
 }
 
-#button{
+.button{
 	color: inherit;
 	text-decoration: none;
 	font-weight: none;
 	padding: 20px;
 	font-size: 20px;
 	text-align: center;
-	color: #5D006A;
 	overflow: auto;
 	width: 1200px;
-	color: #5D006A
 	word-spacing: 20px;
 	overflow: auto;
 }
 
 .logo {
-	float: left, top;
+	float: left;
 	width: 140px;
 	height: 180px;
 	padding: 5px;
@@ -37,24 +41,22 @@ h1, p {
 
 .main {
 	float: center;
-	width: 900px
+	width: 900px;
 	height:400px;
 }
 
-#header {
+.header {
 	background: #000000;
 }
 
 .top {
-	color: #5D006A;
-	color: inherit;
 	text-decoration: none;
 	font-weight: none;
 	text-align: right;
 	padding: 0em 1em;
 }
 
-#line {
+.line {
 	width: 1000px;
 	color: #ffffff;
 }
@@ -64,7 +66,7 @@ h2,h3,h4 {
 	text-align: center;
 }
 
-#SM, #us{
+.SM, .us{
 	font-size: 13px;
 	text-align: center;
 }

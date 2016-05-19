@@ -1,59 +1,64 @@
 <!DOCTYPE html>
-	<html>
-	<div class="content">
-		<head>
-			<link rel="stylesheet" type="text/css" href="css/style.css">
-		</head>
-			<title>Huaywasi: Handmade in Peru</title>
-				<body>
-				<header>
-					<p class="slogan">EACH PURCHASE SUPPORTS AN ARTISAN</p>
-					<h1>
-					<div class="top">
-						<a href="#">Sign Up/Log in</a>
-						<a href="#">Cart</a>
-						<a href="#">Search</a>
-					</div>
-					</h1>
-				</header>
+<html>
+	<head>
+		<title>Huaywasi: Handmade in Peru</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<!-- I would put that in its own div since its an individual element of the page
+					So: <div class="slogan"> <p>EACH PURCHASE SUPPORTS AN ARTISAN</p> </div> -->
+			<p class="slogan">EACH PURCHASE SUPPORTS AN ARTISAN</p>
+			<div class="top">
+				<h1><a href="#">Sign Up/Log in</a></h1>
+				<h1><a href="#">Cart</a></h1>
+				<h1><a href="#">Search</a></h1>
+			</div>
+		</header>
+		<div class="content">
 <!--Navigation Section starts-->
-		
-					<nav id="button">
-					<div class="navleft">
+			<nav class="button">
+				<div class="navleft">
 					<img src="images/huaywasilogo.png" alt="huaywasi logo" class="logo">
-					</div>
-					<div class="navright">
-						<a href="#">SHOP</a>
-						<a href="#">OUR STORY</a>
-						<a href="#">MEET THE ARTISANS</a>
-						<a href="#">DONATE</a>
-						<a href="#">Shop</a>
-						<a href="#">Our Story</a>
-						<a href="#">Meet the Artisans</a>
-						<a href="#">Donate</a>
-					</div>
-					</nav>
-<!--Navigation Section ends-->					
-<!--Slideshow starts-->		
-<div id="fluid slideshow">
-	<img src="images/clutch-from-daria.jpg" alt="cluth" class="main">
-</div>				
-				</body>
-				<hr id="line">
+				</div>
+				<div class="navright">
+					<!-- When you have a succession of the same non block element (a, span, ...), especially in a nav bar, that's the perfect combo for a list element.
+					It'll also be easier to make interactive wwith the CSS or if you use javascript  -->
+					<ul>
+						<li> <a href="#">SHOP</a> </li>
+						<li> <a href="#">OUR STORY</a> </li>
+						<li> <a href="#">MEET THE ARTISANS</a> </li>
+						<li> <a href="#">DONATE</a> </li>
+						<li> <a href="#">Shop</a> </li>
+						<li> <a href="#">Our Story</a> </li>
+						<li> <a href="#">Meet the Artisans</a> </li>
+						<li> <a href="#">Donate</a> </li>
+					</ul>
+				</div>
+			</nav>
+			<!--Navigation Section ends-->
+			<!--Slideshow starts-->
+			<div class="fluid slideshow">
+				<img src="images/clutch-from-daria.jpg" alt="cluth" class="main">
+			</div>
+			<!-- Try to use classes instead of IDs. IDs are good when you want to do something super specific with one item,
+			but in general classes allow for more flexibility (you can group styles together, and in js it can make it easier for interaction)
+			Also IDs kinda mess things up when styling is involved unless, again, you want one thing to do a smtn special :/ -->
+				<hr class="line">
+			<div>
+				<h2 class="social media">Stay in Touch</h2>
+				<ul class="SM">
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Pinterest</li>
+				</ul>
+			</div>
+	<!--Slideshow ends-->
+	<!--Footer starts-->
 		<div>
-			<h2 id="social media">Stay in Touch</h2>
-			<ul id="SM">
-				<li>Facebook</li>
-				<li>Twitter</li>
-				<li>Instagram</li>
-				<li>Pinterest</li>
-			</ul>
-</div>
-<!--Slideshow ends-->
-<!--Footer starts-->
-		<div>
-			<h3 id="about">About Huaywasi</h3>
-			<ul id="us">
+			<h3 class="about">About Huaywasi</h3>
+			<ul class="us">
 				<li>How We Started</li>
 				<li>The Artisans</li>
 				<li>The Team</li>
@@ -61,8 +66,8 @@
 			</ul>
 		</div>
 		<div>
-			<h4 id="newsletter">Join our Newsletter</h4>
+			<h4 class="newsletter">Join our Newsletter</h4>
 		</div>
 	</div>
 <!--Footer ends-->
-	</html>		
+</html>
