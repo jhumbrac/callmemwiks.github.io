@@ -1,6 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
 	text-align: center;
 	background: url(images/huaywasilogo.png);
@@ -14,31 +24,20 @@ h1, p {
 	font-size: 15px;
 }
 
-#button{
+#slideshow{
 	color: inherit;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 20px;
-	font-size: 20px;
-	text-align: center;
+	padding: 0.5em;
 	overflow: auto;
 	width: 1200px;
-	word-spacing: 4px;
-	overflow: auto;
-	font-family: 'Montserrat', sans-serif; 
+	float: middle;
+
 }
 
-.logo {
+#logo {
 	float: left, top;
 	width: 140px;
 	height: 180px;
 	padding: 0.5em;
-}
-
-.main {
-	float: center;
-	width: 900px;
-	height:400px;
 }
 
 #header {
@@ -52,33 +51,34 @@ h1, p {
 	text-align: right;
 	padding: 0em 1em;
 	word-spacing: 1em; 
-	font-family: 'Montserrat', sans-serif; 
-
+	font-family: 'Roboto Slab', serif;
+	padding-top: 0.5em;
 }
 
 h2,h3,h4 {
 	font-size: 16px;
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
-}
-
-#SM, #us{
-	font-size: 13px;
-	text-align: center;
+	font-weight: bold;
 }
 
 .navleft{
-float: left;
-padding-left: 8em;
+	float: left;
+	padding: 1em;
+	padding-left: 6em;
 }
 
 .navright{
-float: right;
-padding-top: 8em;
+	float: right;
+	padding-top: 10em;
+	font-family: 'Montserrat', sans-serif; 
+	padding-right: 6em;
+	font-size: 18px;
 }
 
 .navright a{
-padding: 0em 1em;
+	padding: 0em 1em;
+	font-weight: bold;
 }
 
 .slogan{
@@ -89,12 +89,39 @@ padding: 0em 1em;
 }
 
 .content{
-	width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Montserrat', sans-serif;
 }
 
+.body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
 a:hover{ 
 	color: #FCD201;
+}
+
+.products {
+	width: 33.333%;
+	float: left;
+	padding: 1em;
+}
+.products img {
+	width: 100%; 
+	padding-top: 0.5em;
+}
+
+#display {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.footer {
+	width: 33.33%;
+	float: left;
+	padding: 1em;
+	font-family: 'Roboto Slab', serif;
 }
