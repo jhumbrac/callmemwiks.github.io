@@ -31,16 +31,18 @@ body {
 	background: url(images/huaywasilogo.png);
 	background: url(images/clutch-from-daria.jpg);
 	background-size: cover;
+	color: #5D006A;
+	width: 1200px;
+	margin: auto;
 }
 
 .nav-one {
 margin: auto;
 	width: 1200px;
-	color: #5D006A;
 	background-color: #ffffff;
 }
 
-h1, p {
+h1 {
 	font-size: 15px;
 }
 
@@ -62,6 +64,7 @@ h1, p {
 	word-spacing: 1em; 
 	font-family: 'Roboto Slab', serif;
 	padding-top: 0.5em;
+	margin: auto;
 }
 
 .navright{

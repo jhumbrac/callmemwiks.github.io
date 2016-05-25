@@ -31,6 +31,9 @@ body {
 	background: url(images/huaywasilogo.png);
 	background: url(images/clutch-from-daria.jpg);
 	background-size: cover;
+	color: #5D006A;
+	width: 1200px;
+	margin: auto;
 }
 
 .nav-one {
@@ -104,6 +107,14 @@ h2,h3,h4 {
 
 .display{
 	width: 100%;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+#footer-section section{
+	background-color: #5CB600;
 }
 
 ul {
