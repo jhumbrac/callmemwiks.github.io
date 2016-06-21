@@ -39,18 +39,16 @@ body {
 }
 
 .nav-one ul{
-	display: inline;
-	width: 100%;
 	color: #5D006A;
 	background-color: #ffffff;
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	list-style-type: none;
+	float: right;
 }
 
 .nav-one li a{
 	display: inline-block;
-	float: right;
 	padding: .75em;
 }
 
