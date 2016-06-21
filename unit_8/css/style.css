@@ -6,8 +6,6 @@
 *:after {
   margin: 0;
   padding: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -37,17 +35,19 @@ body {
 	width: 100%;
 	color: #5D006A;
 }
-
-.nav-one ul{
+section {
+	padding:4em 0;
+}
+.nav-one {
 	color: #5D006A;
 	background-color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	list-style-type: none;
 	float: right;
 }
 
-.nav-one li a{
+.nav-one a{
 	display: inline-block;
 	padding: .75em;
 }
@@ -58,6 +58,7 @@ h1, p {
 
 #logo {
 	float: left;
+	width: 6em;
 }
 
 #header {
@@ -111,13 +112,13 @@ h2 {
 }
 
 .products {
-	width: 30.333%;
+	width: 31.333%;
 	float: left;
 	margin: 1%;
-	padding-top: 1em;
+	padding: 0;
 }
 .products img {
-	width: 100%; 
+	width: 100%;
 	padding-top: 1em;
 }
 
@@ -136,9 +137,7 @@ footer {
 }
 
 #footer-section{
-	width: 99%;
-	padding: 1%;
-	display: inline-block;
+	padding: ;
 }
 
 .about {
@@ -190,15 +189,10 @@ h4 {
 	.products {
 		font-size: 16px;
 	}
-
-	.clearfix {
-		width: auto;
-		float: none;
-	}
 }
 
 @media only screen and (min-width: 320px) {
-	.navright, .clearfix {
+	.navright {
 		display: block;
 		float: none;
 	}
